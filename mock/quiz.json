@@ -1,0 +1,78 @@
+[
+    {
+      "question": "Which ancient civilization built the iconic pyramids of Giza?",
+      "image": "https://cdn.britannica.com/s/w250/193349/giza-pyramids-cairo-egypt-aerial-view.jpg",
+      "totalVotes": 100,
+      "options": [
+        {
+          "id": 0,
+          "label": "Aztecs",
+          "count": 50,
+          "votedFor": false
+        },
+        {
+          "id": 1,
+          "label": "Incas",
+          "count": 10,
+          "votedFor": false
+        },
+        {
+          "id": 2,
+          "label": "Egyptians",
+          "count": 25,
+          "votedFor": false
+        },
+        {
+          "id": 3,
+          "label": "Sumerians",
+          "count": 15,
+          "votedFor": false
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Who led the American colonists to victory in the Revolutionary War?",
+      "image": "https://static.history.com/s3/2019/01/george-washington-yorktown-1200.jpg",
+      "options": [
+        "Benjamin Franklin",
+        "Thomas Jefferson",
+        "George Washington",
+        "John Adams"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "The printing press, a revolutionary invention, was first developed by:",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Johannes_Gutenberg_Druckpresse.jpg",
+      "options": [
+        "Leonardo da Vinci",
+        "Johannes Gutenberg",
+        "Isaac Newton",
+        "Galileo Galilei"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which European power colonized most of India during the 18th and 19th centuries?",
+      "image": "https://www.historyextra.com/sites/default/files/styles/article_main_image/public/images/britannia-and-india.jpg?w=940&h=470&crop=1",
+      "options": [
+        "France",
+        "Portugal",
+        "Spain",
+        "Britain"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "The fall of the Berlin Wall in 1989 marked a significant moment in:",
+      "image": "https://www.history.com/images/topics/cold-war/fall-of-berlin-wall.jpg",
+      "options": [
+        "World War I",
+        "The French Revolution",
+        "The Cold War",
+        "The American Civil War"
+      ],
+      "answer": 2
+    }
+]

@@ -1,0 +1,66 @@
+$navyBlue: #003049;
+$red: #D62828;
+$orange: #F77F00;
+$yellow: #FCBF49;
+$lightYellow: #EAE2B7;
+
+// 
+$brown: #D4A373;
+$lightBrown: #FAEDCD;
+$green: #CCD5AE;
+$lightGreen: #E9EDC9;
+$light: #FEFAE0;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: $lightGreen;
+}
+
+// UTILITY START
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+// UTILITY END
+
+
+.poll {
+    width: 400px;
+    background-color: transparent;
+    border: 2px solid $green;
+    border-radius: 8px;
+    padding: 20px;
+    margin: auto;
+    color: $lightYellow;
+}
+.poll-title{
+    margin-bottom: 15px;
+    color: $brown;
+    font-size: 1.2rem;
+}
+.poll-list-items {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.poll-item-btn {
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color: $lightYellow;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0 10px;
+    background: linear-gradient(to right, #ff0000 60%, transparent 40%);
+}
+.poll-item-btn:hover {
+    background-color: $yellow;
+}
