@@ -39,8 +39,7 @@ export const Vote: Story = {
                 "count": 4,
                 "votedFor": false
             }
-        ],
-        readonly: false
+        ]
     }
   },
 };
@@ -54,33 +53,32 @@ export const View: Story = {
                 {
                     "id": 0,
                     "label": "Aztecs",
-                    "count": 4,
+                    "count": 50,
                     "percentage": 50,
                     "votedFor": true
                 },
                 {
                     "id": 1,
                     "label": "Incas",
-                    "count": 4,
+                    "count": 15,
                     "percentage": 15,
                     "votedFor": false
                 },
                 {
                     "id": 2,
                     "label": "Egyptians",
-                    "count": 4,
+                    "count": 25,
                     "percentage": 25,
                     "votedFor": false
                 },
                 {
                     "id": 3,
                     "label": "Sumerians",
-                    "count": 4,
+                    "count": 10,
                     "percentage": 10,
                     "votedFor": false
                 }
             ]
-        },
-        readOnly: true
+        }
     }
 }

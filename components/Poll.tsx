@@ -1,7 +1,13 @@
 import React from "react";
 import PollList from "./PollList";
 
-export default function Poll({max, data, readOnly}) {
+interface IPoll {
+    max: number,
+    data: any,
+    readOnly?: boolean
+}
+
+export default function Poll({max, data}: IPoll) {
     return (
         <>
             <section className="poll">
@@ -9,7 +15,6 @@ export default function Poll({max, data, readOnly}) {
                 <PollList
                     max={2}
                     options={data.options}
-                    readOnly={readOnly}
                 />
             </section>
         </>

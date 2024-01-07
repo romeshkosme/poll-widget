@@ -12,12 +12,12 @@ interface IOption {
 interface IPollList {
     max: number,
     options: IOption[],
-    readOnly?: boolean
+    viewOnly?: boolean
 };
 
-export default function PollList({max, options}: IPollList) {
+export default function PollList({max, options, viewOnly = false}: IPollList) {
     const [list, setList] = useState(options);
-    const [readOnly, setReadOnly] = useState(false);
+    const [readOnly, setReadOnly] = useState(viewOnly);
 
     const onSelect = (id: number) => {
         setList(list.map((elem: IOption) => {
